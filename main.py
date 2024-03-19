@@ -1,6 +1,7 @@
 import random
 import hangman_art
 import hangman_words
+import replit
 
 display = []
 end_of_game = False
@@ -19,6 +20,8 @@ print(display)
 while not end_of_game:
     guess = input("\nGuess a letter: \n").lower()
     print("\n")
+
+    replit.clear()
 
     for p in range(len(chosen_word)):
         letter = chosen_word[p]
