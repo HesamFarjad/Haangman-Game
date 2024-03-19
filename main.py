@@ -8,7 +8,7 @@ life = 6
 all_guesses = []
 
 chosen_word = random.choice(hangman_words.word_list)
-print(f'The solution is: {chosen_word}.\n')
+# print(f'The solution is: {chosen_word}.\n')
 print(hangman_art.logo)
 print("\n")
 
